@@ -1619,6 +1619,7 @@ GameObject:
   - component: {fileID: 1104250408}
   - component: {fileID: 1104250407}
   - component: {fileID: 1104250406}
+  - component: {fileID: 1104250409}
   m_Layer: 0
   m_Name: collider_V
   m_TagString: Untagged
@@ -1719,6 +1720,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1104250404}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1104250409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1104250404}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ba9e2f985b89647b4a6941b24f0e3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneChangeTrigger
+  sceneName: Vangogh
+  waitTime: 2
 --- !u!1 &1191514041
 GameObject:
   m_ObjectHideFlags: 0
@@ -1731,6 +1746,7 @@ GameObject:
   - component: {fileID: 1191514045}
   - component: {fileID: 1191514044}
   - component: {fileID: 1191514043}
+  - component: {fileID: 1191514046}
   m_Layer: 0
   m_Name: collider_K
   m_TagString: Untagged
@@ -1831,6 +1847,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1191514041}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1191514046
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1191514041}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e9ba9e2f985b89647b4a6941b24f0e3e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SceneChangeTrigger
+  sceneName: Kandinski
+  waitTime: 2
 --- !u!1001 &1286271884
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1930,7 +1960,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -2.82}
-  m_LocalScale: {x: 7.73, y: 10.63, z: 20.2}
+  m_LocalScale: {x: 8.17, y: 10.63, z: 8.7}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 517708474}
