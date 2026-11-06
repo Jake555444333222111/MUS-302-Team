@@ -15,10 +15,10 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 10
   m_Fog: 1
-  m_FogColor: {r: 0.6313726, g: 0.30588236, b: 0.054901965, a: 1}
+  m_FogColor: {r: 0.427451, g: 0.30588236, b: 0.10980393, a: 1}
   m_FogMode: 1
   m_FogDensity: 0.0001
-  m_LinearFogStart: 2128
+  m_LinearFogStart: 1299
   m_LinearFogEnd: 3335.01
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
@@ -27,8 +27,8 @@ RenderSettings:
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 105947aafc61caa46897d25e7c3054f5, type: 2}
-  m_HaloStrength: 0.697
-  m_FlareStrength: 0.83
+  m_HaloStrength: 0.454
+  m_FlareStrength: 0.903
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
@@ -1116,8 +1116,8 @@ MonoBehaviour:
   terrainEdgeFade: 0
   terrainFollow: 1
   rebuildWhenTerrainChanges: 1
-  density: 0.023
-  groundFogHeight: 150
+  density: 0.033
+  groundFogHeight: 180.5
   topSoftness: 0.1
   noiseTextureResolution: 32
   noiseSeed: 1337
@@ -1139,16 +1139,16 @@ MonoBehaviour:
   minimumRaySteps: 7
   targetStepLength: 105
   maximumFogDistance: 4500
-  nearFadeDistance: 500
+  nearFadeDistance: 0
   farFadeStart: 0
   fogColor: {r: 0.63, g: 0.7, b: 0.76, a: 1}
   followSceneFogColor: 1
   ambientColor: {r: 0.5, g: 0.55, b: 0.6, a: 1}
   followSceneAmbientColor: 1
-  ambientStrength: 1.02
-  ambientShadowStrength: 0.7
+  ambientStrength: 2.69
+  ambientShadowStrength: 0.344
   sunStrength: 0.65
-  sunScattering: 1.13
+  sunScattering: 1.61
   anisotropy: 0.01
   directionalLight: {fileID: 0}
   rayJitterStrength: 0.957
@@ -1158,10 +1158,10 @@ MonoBehaviour:
   enableVolumetricShadows: 1
   terrainCastsFogShadows: 1
   useUnityRealtimeShadows: 1
-  shadowStrength: 0.7
+  shadowStrength: 0
   shadowDistance: 900
   terrainShadowBias: 0
-  fogSelfShadowStrength: 2.25
+  fogSelfShadowStrength: 1.97
 --- !u!4 &141139574
 Transform:
   m_ObjectHideFlags: 0
@@ -6691,7 +6691,7 @@ Light:
   m_Enabled: 1
   serializedVersion: 13
   m_Type: 1
-  m_Color: {r: 0.90943396, g: 0.5090014, b: 0.27969378, a: 1}
+  m_Color: {r: 0.2603773, g: 0.18442804, b: 0.14492697, a: 1}
   m_Intensity: 1
   m_Range: 10
   m_SpotAngle: 30
@@ -17026,7 +17026,7 @@ Terrain:
   m_StaticShadowCaster: 0
   m_IgnoreQualitySettings: 0
   m_ReflectionProbeUsage: 1
-  m_MaterialTemplate: {fileID: 2100000, guid: ad970eaa7a5ee2548822ab708dfce788, type: 2}
+  m_MaterialTemplate: {fileID: 2100000, guid: 2635810f50558a248a2ae836e15169c6, type: 2}
   m_BakeLightProbesForTrees: 1
   m_PreserveTreePrototypeLayers: 0
   m_DeringLightProbesForTrees: 1
@@ -17049,7 +17049,7 @@ Transform:
   m_GameObject: {fileID: 2020442310}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9035, y: -407.3, z: -4496}
+  m_LocalPosition: {x: -9035, y: -295.5, z: -4496}
   m_LocalScale: {x: 1000, y: 1, z: 1000}
   m_ConstrainProportionsScale: 0
   m_Children:
