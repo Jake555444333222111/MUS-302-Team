@@ -8,5 +8,14 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Vangogh.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Scenes/Art Gallery.unity
+    guid: d340b89a5c339274eb52c6e92c73e9fe
+  - enabled: 1
+    path: Assets/Scenes/Beksinski.unity
+    guid: 4959d9a750cefa445ad262cac217829f
+  - enabled: 1
+    path: Assets/Scenes/Kandinski.unity
+    guid: 821ef2a4a01a4194694c09ef3cf6eb4d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
