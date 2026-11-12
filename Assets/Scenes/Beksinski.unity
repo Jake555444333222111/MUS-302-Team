@@ -1265,7 +1265,7 @@ MonoBehaviour:
   maximumRaySteps: 28
   minimumRaySteps: 7
   targetStepLength: 105
-  maximumFogDistance: 4500
+  maximumFogDistance: 7638
   nearFadeDistance: 0
   farFadeStart: 0
   fogColor: {r: 0.63, g: 0.7, b: 0.76, a: 1}
@@ -6096,6 +6096,10 @@ PrefabInstance:
     - target: {fileID: 1578171331454457643, guid: 552027a081c870241993a0723f159c5c, type: 3}
       propertyPath: m_Name
       value: P_Campfire
+      objectReference: {fileID: 0}
+    - target: {fileID: 1593781367555922187, guid: 552027a081c870241993a0723f159c5c, type: 3}
+      propertyPath: scalingMode
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
