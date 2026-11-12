@@ -479,6 +479,7 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Kandinsky Objects
   - test
   BanksToLoad: []
   LiveUpdatePort: 9264
