@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="MixerGroup" id="{cae2b6ce-9c5b-401f-a91e-2c6eea954998}">
 		<property name="name">
-			<value>SFX</value>
+			<value>Kandinsky(SFX)</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{5153d12c-9e69-4e26-99ab-dc7cf8100709}</destination>

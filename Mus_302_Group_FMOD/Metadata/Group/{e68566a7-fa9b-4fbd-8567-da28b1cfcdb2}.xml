@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="MixerGroup" id="{e68566a7-fa9b-4fbd-8567-da28b1cfcdb2}">
+		<property name="name">
+			<value>Beksinski(SFX)</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{f55c0bb4-18ec-4943-aa17-a6d5b258898a}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{f8579a04-6a64-4214-8e8e-25d44c6a8215}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{73918eca-a590-42ad-b09f-25abd11b368e}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{f55c0bb4-18ec-4943-aa17-a6d5b258898a}">
+		<relationship name="effects">
+			<destination>{bae2fead-47b4-4f13-9209-28b86684d81f}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{f8579a04-6a64-4214-8e8e-25d44c6a8215}" />
+	<object class="MixerBusFader" id="{bae2fead-47b4-4f13-9209-28b86684d81f}" />
+</objects>
