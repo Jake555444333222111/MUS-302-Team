@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7f2f34eb-fbdd-405d-8768-74a748ac29da}">
 		<property name="name">
-			<value>squiggly</value>
+			<value>S1_O5</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{e922d98e-d1bd-4558-acf6-05c7af493bc0}</destination>
+			<destination>{84653d80-3e6b-45f8-aae2-373439f54888}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{69b64fd9-8306-49e7-94c7-f8d39e2a658e}</destination>

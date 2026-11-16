@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EventFolder" id="{d7ae10cc-6541-42b5-8746-37fd28614fc4}">
+	<object class="EventFolder" id="{cb11b55a-03b6-4013-b702-a728104f8d4f}">
 		<property name="name">
-			<value>Kandinski</value>
+			<value>s3</value>
 		</property>
 		<relationship name="folder">
-			<destination>{e922d98e-d1bd-4558-acf6-05c7af493bc0}</destination>
+			<destination>{9713c90b-09ae-4b8d-bc71-55b2ad5cb915}</destination>
 		</relationship>
 	</object>
 </objects>
