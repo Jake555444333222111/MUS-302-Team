@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{8d150a17-f3e3-465d-845c-4a6823ba0378}">
+		<property name="assetPath">
+			<value>S2_O3.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>16.148458333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9116ca34-de45-4ea9-9507-5d9f195d385f}</destination>
+		</relationship>
+	</object>
+</objects>
