@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{f73b6dc6-5039-4074-8cc0-fd8697203536}">
 		<property name="assetPath">
-			<value>kandinsky squiggly.wav</value>
+			<value>Kandinski/kandinsky squiggly.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

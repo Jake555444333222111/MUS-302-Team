@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{bf9e08d7-8bb7-4a1b-8ad7-5df32d421b38}">
 		<property name="assetPath">
-			<value>S2_O12.wav_1.wav</value>
+			<value>Kandinski/S2_O12.wav_1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>

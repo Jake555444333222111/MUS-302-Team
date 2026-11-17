@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{8d150a17-f3e3-465d-845c-4a6823ba0378}">
 		<property name="assetPath">
-			<value>S2_O3.wav</value>
+			<value>Kandinski/S2_O3.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>

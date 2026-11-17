@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="AudioFile" id="{fde78dfc-81b0-4262-97d0-8cc640f83ef2}">
 		<property name="assetPath">
-			<value>S2_O3_highHum_1.wav</value>
+			<value>Kandinski/S2_O3_highHum_1.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
