@@ -10494,10 +10494,10 @@ MonoBehaviour:
   CollisionTag: 
   EventReference:
     Guid:
-      Data1: 1243903036
-      Data2: 1187565983
-      Data3: 918590348
-      Data4: -512852427
+      Data1: 424084433
+      Data2: 1124747446
+      Data3: 1709521553
+      Data4: 793299111
     Path: event:/Van Gogh/Cuckoo
   Event: 
   EventPlayTrigger: 1

@@ -72,6 +72,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{16c836d7-2973-4f52-92f4-4978cdced2ba}">
+		<relationship name="modulators">
+			<destination>{34b7f690-7c0c-47cc-af59-d223355f39a8}</destination>
+		</relationship>
 		<relationship name="effectChain">
 			<destination>{2cb4574d-d600-4d21-8b68-3b34bc91017f}</destination>
 		</relationship>
@@ -93,6 +96,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{95e50133-e7cb-4696-b6fa-467f210aa0f3}" />
+	<object class="RandomizerModulator" id="{34b7f690-7c0c-47cc-af59-d223355f39a8}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>volume</value>
+		</property>
+		<property name="amount">
+			<value>11</value>
+		</property>
+	</object>
 	<object class="MixerBusEffectChain" id="{2cb4574d-d600-4d21-8b68-3b34bc91017f}">
 		<relationship name="effects">
 			<destination>{f4828ae1-976c-43a1-a423-3a5fb6fb54c2}</destination>
@@ -108,13 +119,38 @@
 	</object>
 	<object class="MixerBusFader" id="{7ca1d701-98c9-47db-a54c-eb204f51ba86}" />
 	<object class="MixerBusFader" id="{f4828ae1-976c-43a1-a423-3a5fb6fb54c2}" />
-	<object class="SpatialiserEffect" id="{26555808-2af6-419b-b658-691512d1c281}" />
+	<object class="SpatialiserEffect" id="{26555808-2af6-419b-b658-691512d1c281}">
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>6.5</value>
+		</property>
+	</object>
 	<object class="SFXReverbEffect" id="{dae6e12c-e12a-4d5f-a936-bd19a7dfb591}">
 		<property name="decayTime">
-			<value>2800</value>
+			<value>3100</value>
+		</property>
+		<property name="earlyDelay">
+			<value>52</value>
+		</property>
+		<property name="lateDelay">
+			<value>83</value>
+		</property>
+		<property name="HFReference">
+			<value>7000</value>
+		</property>
+		<property name="lowShelfFrequency">
+			<value>540</value>
+		</property>
+		<property name="highCut">
+			<value>660</value>
 		</property>
 		<property name="wetLevel">
 			<value>0</value>
+		</property>
+		<property name="dryLevel">
+			<value>-17</value>
 		</property>
 	</object>
 	<object class="SingleSound" id="{7885aab9-ff33-46d3-b4a1-91cca66c7db3}">
