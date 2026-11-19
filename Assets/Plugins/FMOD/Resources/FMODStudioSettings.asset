@@ -479,8 +479,10 @@ MonoBehaviour:
   MasterBanks:
   - Master
   Banks:
+  - Beksinski
   - Kandinsky Objects
   - test
+  - Van Gogh
   BanksToLoad: []
   LiveUpdatePort: 9264
   EnableMemoryTracking: 0
