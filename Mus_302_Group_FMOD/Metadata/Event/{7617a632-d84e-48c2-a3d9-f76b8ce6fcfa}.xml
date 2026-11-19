@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{7617a632-d84e-48c2-a3d9-f76b8ce6fcfa}">
-		<property name="color">
-			<value>Red Light 2</value>
-		</property>
 		<property name="name">
 			<value>S2_O14</value>
 		</property>
