@@ -5,7 +5,7 @@
 			<value>Purple</value>
 		</property>
 		<property name="name">
-			<value>Bachinski</value>
+			<value>Beksinski</value>
 		</property>
 		<relationship name="folder">
 			<destination>{e922d98e-d1bd-4558-acf6-05c7af493bc0}</destination>

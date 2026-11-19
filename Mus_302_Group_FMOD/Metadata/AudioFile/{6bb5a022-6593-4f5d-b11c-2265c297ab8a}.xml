@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{6bb5a022-6593-4f5d-b11c-2265c297ab8a}">
+		<property name="assetPath">
+			<value>hellish screams.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>6.5899999999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{9116ca34-de45-4ea9-9507-5d9f195d385f}</destination>
+		</relationship>
+	</object>
+</objects>
