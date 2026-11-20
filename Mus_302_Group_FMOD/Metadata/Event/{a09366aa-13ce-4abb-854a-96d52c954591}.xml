@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{a09366aa-13ce-4abb-854a-96d52c954591}">
-		<property name="color">
-			<value>Red Light 2</value>
-		</property>
 		<property name="name">
-			<value>S4_O6</value>
+			<value>S4_O6(thump)</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{571c205a-2023-48be-adf5-80e0412c8715}</destination>
@@ -42,7 +39,7 @@
 	</object>
 	<object class="MasterTrack" id="{7bf9d173-0a9c-499a-b7fb-0c7bf7b7627b}">
 		<relationship name="modules">
-			<destination>{fccc11a3-2b78-49c6-822a-59c945a36008}</destination>
+			<destination>{9c4c50d9-ed91-4283-a5fa-79ff6ea3167e}</destination>
 		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{e1d9fc05-d972-4794-9a14-553694fff504}</destination>
@@ -63,13 +60,16 @@
 	<object class="MarkerTrack" id="{5fb9c1d5-b432-4b75-bafe-8ab90997f527}" />
 	<object class="Timeline" id="{849a7654-3d17-49f2-bb6a-c09d6994ae15}">
 		<relationship name="modules">
-			<destination>{fccc11a3-2b78-49c6-822a-59c945a36008}</destination>
+			<destination>{9c4c50d9-ed91-4283-a5fa-79ff6ea3167e}</destination>
 		</relationship>
 		<relationship name="markers">
 			<destination>{71e0b1b1-8575-4c2a-b945-05980983c71a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{e1d9fc05-d972-4794-9a14-553694fff504}">
+		<property name="volume">
+			<value>2.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{78852f72-c66e-455a-b529-dd7d19c00041}</destination>
 		</relationship>
@@ -80,15 +80,15 @@
 			<destination>{58d8e7e4-79e6-4114-a24d-cbd919815b99}</destination>
 		</relationship>
 	</object>
-	<object class="SingleSound" id="{fccc11a3-2b78-49c6-822a-59c945a36008}">
+	<object class="SingleSound" id="{9c4c50d9-ed91-4283-a5fa-79ff6ea3167e}">
 		<property name="length">
 			<value>15.01</value>
 		</property>
 		<relationship name="fadeOutCurve">
-			<destination>{1a61edd9-fad7-4fae-8884-c807c081577d}</destination>
+			<destination>{94e151e3-e3e9-43bc-aa76-5327dbe4ec8e}</destination>
 		</relationship>
 		<relationship name="audioFile">
-			<destination>{09fe0430-a51f-40bb-9db5-f22f5e7ae393}</destination>
+			<destination>{5485d6b0-6908-402d-94ce-fb418dbbbfb5}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{29becd79-d5c7-46ea-bb38-2c7e80799727}">
@@ -114,22 +114,24 @@
 	<object class="MixerBusEffectChain" id="{78852f72-c66e-455a-b529-dd7d19c00041}">
 		<relationship name="effects">
 			<destination>{2d12645b-b5c4-40cb-b8b4-9b2971e1b931}</destination>
+			<destination>{06a50211-753e-4aa4-850c-15d4b29d85f9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1a0c6d00-8447-4ead-8173-f482991180e0}" />
-	<object class="FadeCurve" id="{1a61edd9-fad7-4fae-8884-c807c081577d}">
+	<object class="FadeCurve" id="{94e151e3-e3e9-43bc-aa76-5327dbe4ec8e}">
 		<relationship name="startPoint">
-			<destination>{d9005346-96a7-450c-a235-ed9f0a993857}</destination>
+			<destination>{3ca24fcf-07d0-4ca6-83ce-49e1ea6f4248}</destination>
 		</relationship>
 		<relationship name="endPoint">
-			<destination>{3a40d72a-e6c8-4abc-99f6-1d354772debb}</destination>
+			<destination>{165f45cb-4078-4c7c-8e97-cb8c9707ac29}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{0db0d1a4-cc70-4c8e-a7dd-04cd47eae93f}" />
 	<object class="MixerBusFader" id="{2d12645b-b5c4-40cb-b8b4-9b2971e1b931}" />
-	<object class="AutomationPoint" id="{d9005346-96a7-450c-a235-ed9f0a993857}">
+	<object class="SpatialiserEffect" id="{06a50211-753e-4aa4-850c-15d4b29d85f9}" />
+	<object class="AutomationPoint" id="{3ca24fcf-07d0-4ca6-83ce-49e1ea6f4248}">
 		<property name="position">
-			<value>14.985269784172662</value>
+			<value>14.98</value>
 		</property>
 		<property name="value">
 			<value>1</value>
@@ -138,7 +140,7 @@
 			<value>0.25471893</value>
 		</property>
 	</object>
-	<object class="AutomationPoint" id="{3a40d72a-e6c8-4abc-99f6-1d354772debb}">
+	<object class="AutomationPoint" id="{165f45cb-4078-4c7c-8e97-cb8c9707ac29}">
 		<property name="position">
 			<value>15.01</value>
 		</property>

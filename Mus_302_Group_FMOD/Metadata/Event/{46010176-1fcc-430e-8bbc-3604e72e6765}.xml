@@ -8,7 +8,7 @@
 			<value>S4_O2</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{571c205a-2023-48be-adf5-80e0412c8715}</destination>
@@ -129,6 +129,7 @@
 	<object class="MixerBusEffectChain" id="{bfe697b6-22e6-483f-974c-a53b6298fab3}">
 		<relationship name="effects">
 			<destination>{df9f2f2b-68f4-43f8-9a09-c3f233e6f0bd}</destination>
+			<destination>{08ba9214-a212-4038-bcfc-58a7953971b9}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{5e42613a-a6e6-4d76-94f1-ccab3cd9f347}" />
@@ -162,6 +163,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{df9f2f2b-68f4-43f8-9a09-c3f233e6f0bd}" />
+	<object class="SpatialiserEffect" id="{08ba9214-a212-4038-bcfc-58a7953971b9}" />
 	<object class="AutomationPoint" id="{876fd3e1-8744-4b5f-8166-378a2261e016}">
 		<property name="position">
 			<value>0</value>
