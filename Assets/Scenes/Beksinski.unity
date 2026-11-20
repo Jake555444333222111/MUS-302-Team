@@ -1299,7 +1299,7 @@ Transform:
   m_GameObject: {fileID: 141139572}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 9.235247, y: 471.32468, z: 4.3872848}
+  m_LocalPosition: {x: 8.9949, y: 82.8, z: 4.4988}
   m_LocalScale: {x: 0.001, y: 1, z: 0.001}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2775,8 +2775,8 @@ MonoBehaviour:
       Data3: -242522231
       Data4: -618896701
     Path: event:/Beksinski/screams
-  minimumDelay: 5
-  maximumDelay: 9.5
+  minimumDelay: 4.04
+  maximumDelay: 9.08
   overrideAttenuation: 1
   overrideMinDistance: 1
   overrideMaxDistance: 140.3
