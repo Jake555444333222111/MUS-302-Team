@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{5ba8c18e-70f0-48d6-a156-5fc60a9121bf}">
-		<property name="color">
-			<value>Red Light 2</value>
-		</property>
 		<property name="name">
 			<value>S4_O38</value>
 		</property>
 		<property name="outputFormat">
-			<value>1</value>
+			<value>2</value>
 		</property>
 		<relationship name="folder">
 			<destination>{571c205a-2023-48be-adf5-80e0412c8715}</destination>
@@ -114,9 +111,11 @@
 	<object class="MixerBusEffectChain" id="{8319b98a-2d97-47ad-9226-2164d916b353}">
 		<relationship name="effects">
 			<destination>{9648436e-699a-47d5-9bf9-5181c13a5090}</destination>
+			<destination>{67166f0d-645c-4666-840d-49a0f555998a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1bb4ccfc-c04a-49ed-bd77-accdc2fed5a9}" />
 	<object class="MixerBusFader" id="{d8facc99-3cbd-4616-a124-64150f6aefe6}" />
 	<object class="MixerBusFader" id="{9648436e-699a-47d5-9bf9-5181c13a5090}" />
+	<object class="SpatialiserEffect" id="{67166f0d-645c-4666-840d-49a0f555998a}" />
 </objects>
