@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{9cf481a2-e58c-44e1-bf4b-8b751c32c978}">
+	<object class="AudioFile" id="{eadf6fea-468c-4249-9071-c4c388469c87}">
 		<property name="assetPath">
-			<value>S1_O15_2.wav</value>
-		</property>
-		<property name="isStreaming">
-			<value>true</value>
+			<value>S1_O20.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -14,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>60</value>
+			<value>9.7440625000000001</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{9116ca34-de45-4ea9-9507-5d9f195d385f}</destination>
