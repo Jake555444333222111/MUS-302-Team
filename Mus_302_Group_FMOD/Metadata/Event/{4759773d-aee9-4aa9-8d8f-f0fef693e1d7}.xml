@@ -120,6 +120,7 @@
 			<destination>{d37a33f3-2781-4d98-84f7-24fcdc35b01d}</destination>
 			<destination>{8af18e9f-eac0-49e8-b2f4-decd4a02d9f1}</destination>
 			<destination>{af1d4c5f-f58a-4838-abef-886773ac7236}</destination>
+			<destination>{5da3e6ab-3a66-4469-8b4d-63f1df19c6a1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{b9559486-ab2e-449d-be7e-5cf8278214ed}" />
@@ -157,6 +158,11 @@
 	<object class="DistortionEffect" id="{af1d4c5f-f58a-4838-abef-886773ac7236}">
 		<property name="level">
 			<value>0.574999988</value>
+		</property>
+	</object>
+	<object class="CompressorEffect" id="{5da3e6ab-3a66-4469-8b4d-63f1df19c6a1}">
+		<property name="threshold">
+			<value>-11.5</value>
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{07953bb2-8912-4523-b392-a40904001d75}" />
