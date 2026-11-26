@@ -192,6 +192,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
+--- !u!1 &14854448 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3351107634038123682, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
+  m_PrefabInstance: {fileID: 2104888881}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &14854450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 14854448}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 930869968
+      Data2: 1206342006
+      Data3: 1188859567
+      Data4: -1557470634
+    Path: event:/Van Gogh/Bird Song
+  minimumDelay: 0.1
+  maximumDelay: 0.2
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 40
 --- !u!1001 &31866284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -697,7 +726,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 90ee80be24807a243bd16872ee3471d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1765186508}
   m_SourcePrefab: {fileID: 100100000, guid: 90ee80be24807a243bd16872ee3471d8, type: 3}
 --- !u!1 &136246546
 GameObject:
@@ -916,6 +948,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
+--- !u!1 &170128676 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
+  m_PrefabInstance: {fileID: 583385430}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &170128680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170128676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 250284338
+      Data2: 1273568269
+      Data3: 755988110
+      Data4: -1017411116
+    Path: event:/Van Gogh/Rats
+  minimumDelay: 0.1
+  maximumDelay: 0.1
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 30
 --- !u!1001 &173942831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -991,7 +1052,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808820855}
   m_SourcePrefab: {fileID: 100100000, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
 --- !u!1001 &176078522
 PrefabInstance:
@@ -1127,6 +1191,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 09ba5ddaf6cfc3a4783d0000eb9ee7b8, type: 3}
+--- !u!1 &208456559 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3351107634038123682, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
+  m_PrefabInstance: {fileID: 1412288973}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &208456561
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 208456559}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 930869968
+      Data2: 1206342006
+      Data3: 1188859567
+      Data4: -1557470634
+    Path: event:/Van Gogh/Bird Song
+  minimumDelay: 0.1
+  maximumDelay: 0.2
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 40
 --- !u!1 &210410580
 GameObject:
   m_ObjectHideFlags: 0
@@ -1229,6 +1322,35 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 1.24}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &238526922 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3351107634038123682, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
+  m_PrefabInstance: {fileID: 411868423}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &238526924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 238526922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 930869968
+      Data2: 1206342006
+      Data3: 1188859567
+      Data4: -1557470634
+    Path: event:/Van Gogh/Bird Song
+  minimumDelay: 0.1
+  maximumDelay: 0.2
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 40
 --- !u!1001 &243075486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1660,6 +1782,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3ca7cc9674789a644bb5aadf75be073f, type: 3}
+--- !u!1 &349106021 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 90ee80be24807a243bd16872ee3471d8, type: 3}
+  m_PrefabInstance: {fileID: 1946804301}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &349106026
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 349106021}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 2135240407
+      Data2: 1297930933
+      Data3: -1863548495
+      Data4: -1859976778
+    Path: event:/Van Gogh/Squirrel
+  minimumDelay: 1
+  maximumDelay: 4
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 10
 --- !u!1001 &355578455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1966,7 +2117,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3351107634038123682, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 471155768}
   m_SourcePrefab: {fileID: 100100000, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
 --- !u!1 &410087039
 GameObject:
@@ -2235,7 +2389,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3351107634038123682, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 238526924}
   m_SourcePrefab: {fileID: 100100000, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
 --- !u!1001 &420728529
 PrefabInstance:
@@ -2481,6 +2638,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &471155766 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3351107634038123682, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
+  m_PrefabInstance: {fileID: 406256350}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &471155768
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 471155766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 930869968
+      Data2: 1206342006
+      Data3: 1188859567
+      Data4: -1557470634
+    Path: event:/Van Gogh/Bird Song
+  minimumDelay: 0.1
+  maximumDelay: 0.2
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 40
 --- !u!1 &483937194
 GameObject:
   m_ObjectHideFlags: 0
@@ -2999,7 +3185,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 170128680}
   m_SourcePrefab: {fileID: 100100000, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
 --- !u!1001 &586314867
 PrefabInstance:
@@ -5040,6 +5229,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1267217b126d6c54ba5c47fcb8fd30d1, type: 3}
+--- !u!1 &829687158 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1991462268964490261, guid: bff57b9810feed64abe743f4c260640e, type: 3}
+  m_PrefabInstance: {fileID: 1173863732}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &829687162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 829687158}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 930869968
+      Data2: 1206342006
+      Data3: 1188859567
+      Data4: -1557470634
+    Path: event:/Van Gogh/Bird Song
+  minimumDelay: 0.1
+  maximumDelay: 0.2
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 50
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -5239,6 +5457,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &869245191 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
+  m_PrefabInstance: {fileID: 1808874002}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &869245195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869245191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 250284338
+      Data2: 1273568269
+      Data3: 755988110
+      Data4: -1017411116
+    Path: event:/Van Gogh/Rats
+  minimumDelay: 0.1
+  maximumDelay: 0.2
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 30
 --- !u!1001 &926103280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5385,6 +5632,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca4a1d7eb49753d408ec7996efa8c010, type: 3}
+--- !u!1 &931738697 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 90ee80be24807a243bd16872ee3471d8, type: 3}
+  m_PrefabInstance: {fileID: 1958824943}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &931738702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 931738697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 2135240407
+      Data2: 1297930933
+      Data3: -1863548495
+      Data4: -1859976778
+    Path: event:/Van Gogh/Squirrel
+  minimumDelay: 2
+  maximumDelay: 10
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 10
 --- !u!1001 &1008779991
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5446,6 +5722,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 54cbbbccc1b524243ad4549824e1866f, type: 3}
+--- !u!1 &1094855810 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3351107634038123682, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
+  m_PrefabInstance: {fileID: 1668006436}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1094855812
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1094855810}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 930869968
+      Data2: 1206342006
+      Data3: 1188859567
+      Data4: -1557470634
+    Path: event:/Van Gogh/Bird Song
+  minimumDelay: 0.1
+  maximumDelay: 0.2
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 40
 --- !u!1 &1097895162
 GameObject:
   m_ObjectHideFlags: 0
@@ -5722,7 +6027,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 90ee80be24807a243bd16872ee3471d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1241241337}
   m_SourcePrefab: {fileID: 100100000, guid: 90ee80be24807a243bd16872ee3471d8, type: 3}
 --- !u!1001 &1173863732
 PrefabInstance:
@@ -5791,7 +6099,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 1991462268964490261, guid: bff57b9810feed64abe743f4c260640e, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 829687162}
   m_SourcePrefab: {fileID: 100100000, guid: bff57b9810feed64abe743f4c260640e, type: 3}
 --- !u!1 &1193647658
 GameObject:
@@ -6294,6 +6605,35 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 118.383, z: 0}
+--- !u!1 &1241241332 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 90ee80be24807a243bd16872ee3471d8, type: 3}
+  m_PrefabInstance: {fileID: 1172915027}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1241241337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1241241332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 2135240407
+      Data2: 1297930933
+      Data3: -1863548495
+      Data4: -1859976778
+    Path: event:/Van Gogh/Squirrel
+  minimumDelay: 15
+  maximumDelay: 15
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 20
 --- !u!1 &1267660066
 GameObject:
   m_ObjectHideFlags: 0
@@ -6709,6 +7049,143 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1406152165
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1406152170}
+  - component: {fileID: 1406152169}
+  - component: {fileID: 1406152168}
+  - component: {fileID: 1406152167}
+  - component: {fileID: 1406152166}
+  m_Layer: 0
+  m_Name: Wind
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1406152166
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406152165}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: -783333576
+      Data2: 1257744849
+      Data3: -196329088
+      Data4: -125710478
+    Path: event:/Van Gogh/Wind
+  minimumDelay: 10
+  maximumDelay: 30
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 100
+--- !u!65 &1406152167
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406152165}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!23 &1406152168
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406152165}
+  m_Enabled: 0
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
+  m_ForceMeshLod: -1
+  m_MeshLodSelectionBias: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 31321ba15b8f8eb4c954353edc038b1d, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_GlobalIlluminationMeshLod: 0
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_MaskInteraction: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &1406152169
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406152165}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!4 &1406152170
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1406152165}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -45.71598, y: -0.00001, z: 56.72833}
+  m_LocalScale: {x: 1000, y: 1000, z: 1000}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1407647785
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6868,7 +7345,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3351107634038123682, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 208456561}
   m_SourcePrefab: {fileID: 100100000, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
 --- !u!1 &1479352834
 GameObject:
@@ -7635,7 +8115,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3351107634038123682, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1094855812}
   m_SourcePrefab: {fileID: 100100000, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
 --- !u!1 &1676317413
 GameObject:
@@ -8511,6 +8994,42 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b3f1df96eb042f34fa57537f63f9f2e8, type: 3}
+--- !u!1 &1765186507 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 90ee80be24807a243bd16872ee3471d8, type: 3}
+  m_PrefabInstance: {fileID: 82137060}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1765186508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1765186507}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: FMODUnity::FMODUnity.StudioEventEmitter
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: 2135240407
+      Data2: 1297930933
+      Data3: -1863548495
+      Data4: -1859976778
+    Path: event:/Van Gogh/Squirrel
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 2
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 10
 --- !u!1 &1767146409
 GameObject:
   m_ObjectHideFlags: 0
@@ -8974,6 +9493,35 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 24ca6a2497d90bc4d82a9bba187d38de, type: 3}
+--- !u!1 &1808820851 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
+  m_PrefabInstance: {fileID: 173942831}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1808820855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808820851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 250284338
+      Data2: 1273568269
+      Data3: 755988110
+      Data4: -1017411116
+    Path: event:/Van Gogh/Rats
+  minimumDelay: 0.1
+  maximumDelay: 0.2
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 30
 --- !u!1001 &1808874002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9049,7 +9597,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 869245195}
   m_SourcePrefab: {fileID: 100100000, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
 --- !u!1 &1836873836
 GameObject:
@@ -9557,7 +10108,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 90ee80be24807a243bd16872ee3471d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 349106026}
   m_SourcePrefab: {fileID: 100100000, guid: 90ee80be24807a243bd16872ee3471d8, type: 3}
 --- !u!1001 &1958824943
 PrefabInstance:
@@ -9630,7 +10184,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 90ee80be24807a243bd16872ee3471d8, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 931738702}
   m_SourcePrefab: {fileID: 100100000, guid: 90ee80be24807a243bd16872ee3471d8, type: 3}
 --- !u!1001 &1984908311
 PrefabInstance:
@@ -10334,7 +10891,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 3351107634038123682, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 14854450}
   m_SourcePrefab: {fileID: 100100000, guid: e061c3c2929a4ff4ea6e1fcc179c3f99, type: 3}
 --- !u!1 &2106383926
 GameObject:
@@ -10637,3 +11197,4 @@ SceneRoots:
   - {fileID: 1557667517}
   - {fileID: 2106383931}
   - {fileID: 785942408}
+  - {fileID: 1406152170}
