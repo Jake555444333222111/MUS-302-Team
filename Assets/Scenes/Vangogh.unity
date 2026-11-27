@@ -977,6 +977,30 @@ MonoBehaviour:
   overrideAttenuation: 1
   overrideMinDistance: 1
   overrideMaxDistance: 30
+--- !u!114 &170128684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 170128676}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 2135240407
+      Data2: 1297930933
+      Data3: -1863548495
+      Data4: -1859976778
+    Path: event:/Van Gogh/Squirrel
+  minimumDelay: 0.1
+  maximumDelay: 1
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 40
 --- !u!1001 &173942831
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1056,6 +1080,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1808820855}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1808820859}
   m_SourcePrefab: {fileID: 100100000, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
 --- !u!1001 &176078522
 PrefabInstance:
@@ -3189,6 +3216,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 170128680}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 170128684}
   m_SourcePrefab: {fileID: 100100000, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
 --- !u!1001 &586314867
 PrefabInstance:
@@ -5486,6 +5516,30 @@ MonoBehaviour:
   overrideAttenuation: 1
   overrideMinDistance: 1
   overrideMaxDistance: 30
+--- !u!114 &869245199
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 869245191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 2135240407
+      Data2: 1297930933
+      Data3: -1863548495
+      Data4: -1859976778
+    Path: event:/Van Gogh/Squirrel
+  minimumDelay: 0.1
+  maximumDelay: 1
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 40
 --- !u!1001 &926103280
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9414,6 +9468,30 @@ MonoBehaviour:
   overrideAttenuation: 1
   overrideMinDistance: 1
   overrideMaxDistance: 30
+--- !u!114 &1808820859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808820851}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b0f507f900159b149becc89931f2941b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::FMODRandomPlayer
+  soundEvent:
+    Guid:
+      Data1: 2135240407
+      Data2: 1297930933
+      Data3: -1863548495
+      Data4: -1859976778
+    Path: event:/Van Gogh/Squirrel
+  minimumDelay: 0.1
+  maximumDelay: 1
+  overrideAttenuation: 1
+  overrideMinDistance: 1
+  overrideMaxDistance: 40
 --- !u!1001 &1808874002
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9493,6 +9571,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
       insertIndex: -1
       addedObject: {fileID: 869245195}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 869245199}
   m_SourcePrefab: {fileID: 100100000, guid: 860e251689ae11144a3b4b205bdd4afe, type: 3}
 --- !u!1 &1836873836
 GameObject:
