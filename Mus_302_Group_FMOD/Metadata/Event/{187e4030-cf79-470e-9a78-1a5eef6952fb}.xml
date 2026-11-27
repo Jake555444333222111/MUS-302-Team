@@ -62,6 +62,9 @@
 		<relationship name="modules">
 			<destination>{3f3be0a5-4075-48e9-8e22-312e6594c61e}</destination>
 		</relationship>
+		<relationship name="markers">
+			<destination>{def1d844-49f7-4945-853a-4b62204b9523}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d85673f4-97b3-478a-b366-755291e27c0f}">
 		<relationship name="effectChain">
@@ -76,7 +79,10 @@
 	</object>
 	<object class="SingleSound" id="{3f3be0a5-4075-48e9-8e22-312e6594c61e}">
 		<property name="length">
-			<value>2.7400000000000002</value>
+			<value>1.4000000000000001</value>
+		</property>
+		<property name="volume">
+			<value>10</value>
 		</property>
 		<relationship name="audioFile">
 			<destination>{3bcbec2d-057e-4f93-a5ef-22de521008a9}</destination>
@@ -88,10 +94,25 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7b7e7fdf-7c47-4a5a-a041-7ed81f7dbbfa}" />
+	<object class="LoopRegion" id="{def1d844-49f7-4945-853a-4b62204b9523}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>1.1000000000000001</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{e69ba168-133b-4eb9-a324-48a2f87cfd8b}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{c6c1a654-b0bd-49c2-a766-4b690c27ec90}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusEffectChain" id="{f21fcdf8-f0ee-406b-9774-716e28801674}">
 		<relationship name="effects">
 			<destination>{9049929f-8a8e-49a2-bf63-7db87892feb3}</destination>
 			<destination>{d190fd58-b8bc-4c51-b87b-8fc4dbde0fa2}</destination>
+			<destination>{37cca4ba-84ea-41ea-988a-5daf51327dd8}</destination>
 			<destination>{5aa4bf86-84ce-4046-b37a-5e8b8a089a51}</destination>
 		</relationship>
 	</object>
@@ -106,5 +127,19 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{d190fd58-b8bc-4c51-b87b-8fc4dbde0fa2}" />
+	<object class="SFXReverbEffect" id="{37cca4ba-84ea-41ea-988a-5daf51327dd8}">
+		<property name="decayTime">
+			<value>2200</value>
+		</property>
+		<property name="earlyDelay">
+			<value>300</value>
+		</property>
+		<property name="lateDelay">
+			<value>100</value>
+		</property>
+		<property name="wetLevel">
+			<value>-11.5</value>
+		</property>
+	</object>
 	<object class="SpatialiserEffect" id="{5aa4bf86-84ce-4046-b37a-5e8b8a089a51}" />
 </objects>
