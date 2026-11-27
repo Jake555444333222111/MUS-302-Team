@@ -213,7 +213,14 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{bea65ce7-6bda-43b9-9292-207592f899df}" />
-	<object class="SpatialiserEffect" id="{47717ce7-432c-44d0-933d-1d7ae58c9c3a}" />
+	<object class="SpatialiserEffect" id="{47717ce7-432c-44d0-933d-1d7ae58c9c3a}">
+		<property name="soundSize">
+			<value>2</value>
+		</property>
+		<property name="minimumExtent">
+			<value>42</value>
+		</property>
+	</object>
 	<object class="AutomationPoint" id="{fe46aa01-f48a-46e0-a145-4db12ba0a2c1}">
 		<property name="position">
 			<value>0</value>
