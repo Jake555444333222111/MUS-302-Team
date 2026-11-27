@@ -83,6 +83,9 @@
 		<property name="length">
 			<value>17.017708333333335</value>
 		</property>
+		<property name="volume">
+			<value>10</value>
+		</property>
 		<relationship name="audioFile">
 			<destination>{1f5a01c6-dc13-4cff-a110-151248a9ea69}</destination>
 		</relationship>
