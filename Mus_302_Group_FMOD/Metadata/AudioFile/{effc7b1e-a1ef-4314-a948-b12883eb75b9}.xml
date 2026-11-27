@@ -4,9 +4,6 @@
 		<property name="assetPath">
 			<value>S2_O14_4 (4).wav</value>
 		</property>
-		<property name="isStreaming">
-			<value>true</value>
-		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
 		</property>
