@@ -107,7 +107,7 @@
 	<object class="MixerBusPanner" id="{331c3205-48bf-4057-aedf-91d0cd9d0f3b}" />
 	<object class="MultiSound" id="{86c2ebbf-5cd6-4677-8ad8-4254c749125a}">
 		<property name="volume">
-			<value>-6.5</value>
+			<value>-12</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
@@ -157,7 +157,7 @@
 	</object>
 	<object class="MultiSound" id="{468078f2-b398-42fd-a4aa-ceb4f3c638f8}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-21.5</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
@@ -207,7 +207,7 @@
 	</object>
 	<object class="MultiSound" id="{3cc4f4a9-bfb3-445a-9602-64ca11ffa1da}">
 		<property name="volume">
-			<value>-6</value>
+			<value>-20.5</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
