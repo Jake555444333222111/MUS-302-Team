@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{d8aacab6-1f77-4aa9-8acf-d4cf49a345fe}">
+		<property name="name">
+			<value>Ground Type Transition</value>
+		</property>
+		<relationship name="folder">
+			<destination>{f7efd75b-0c0e-408c-9055-d65720a4a634}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{ac5ed387-506d-4a76-bd6a-09ff72c88e9a}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{ac5ed387-506d-4a76-bd6a-09ff72c88e9a}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
